@@ -222,7 +222,7 @@ div.footer-icon{
 
 /*############# MOBILE ##############*/
 
-@media screen and (max-width:764px) {
+@media screen and (max-width:764px)  {
     div.no-display{
         display: none;
     }
@@ -390,76 +390,78 @@ div.grid-main::after{
 
 /*############## TABLET #####################*/
 @media screen and (min-width:600px) and (max-width:1300px) {
-    div.main-img, div.main-brand{
-        display: block;
-        width: 50%;
-        overflow: hidden;
-    }
-    div.no-display{
+        div.no-display{
         display: none;
     }
     div.div-img img{
-        margin-left: 0;
+        margin: 0;
+        width: 100%;
     }
-    div.div-h1 {
-        top: 25;
-        
+    div.div-button a, div.div-h1, div.div-p1{
+        position: static;
     }
-    div.div-p1{
-        top: 5%;
-    }
-    div.div-p1 p{
-        font-size: 25;
-        line-height: 2;
-        padding: 1%;
-        font-weight: bolder;
-    }
-    div.div-h1, div.div-p1, div.div-button a{
-        left: 42%;
-    }
-    div.div-button a{
-        top: 20%;
-    }
-    .col-6{
+    .main-img, .main-brand{
         width: 100%;
         overflow: hidden;
     }
     div.div-h1 h1{
         color: black;
-        font-size: 66;
+        font-size: 90;
+        font-weight: 900;
+        font-family: 'Open sans', sans-serif;
+    }
+    div.div-h1{
+        padding: 10% 3% 7% 3%;
+    }
+    div.div-p1{
+        padding: 0 1% 10% 1%;
+    }
+    div.div-p1 p{
+        font-size: 30;
+        padding: 1%;
+        color: black;
+    }
+    div.div-button{
+        padding: 0 3% 15% 3%;
+    }
+    div.div-button a{
+        padding: 5%;
+    }
+    .col-6{
+        width: 100%;
     }
     div.second-h2{
-        padding: 5% 3% 5% 3%;
+        padding: 5% 5% 7% 5%;
     }
     div.second-p2{
-        padding: 0 3% 5% 3%;
+        padding: 0 5% 5% 5%;
     }
     div.second-h2 h2{
         font-size: 80;
     }
     div.second-p2 p{
-        font-size: 40;
+        font-size: 30;
         line-height: 2;
-        font-weight: bold;
     }
     div.second-img{
-        padding: 0 3% 0 3%;
+        padding: 0 5% 0 5%;
     }
     div.second-img img{
         width: 100%;
         margin-left: 0;
     }
+    
    div.grid-main1{
     margin: 0;
     padding: 0;
     width: 100%;
-    padding-bottom: 5%;
 }
 div.grid-main{
     display: flex;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+    padding-bottom: 5%;
 }
 div.grid-main::after{
     display: block;
@@ -490,31 +492,41 @@ div.grid-main::after{
     }
     div.grid-img3{
         width: 100%;
-        padding: 0 3% 0 3%;
+        padding: 0 3% 3% 3%;
     }
     div.grid-img3 p{
         font-size: 30;
+        line-height: 2.5;
+        padding: 0 5% 3% 10%;
     }
-    div.grid-img3 h2{
-        font-size: 70;
+    div.grid-img3 h1{
+        font-size: 80;
     }
     .col-4{
-        width: 50%;
-    }
-    div.last-foot{
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
-    div.first-foot, div.second-foot{
-        padding-bottom: 5%;
+    div.footer-h2{
+        padding: 0 0 7% 0;
+    }
+    div.footer-h2 h2{
+        font-size: 80;
+        padding: 2%;
+    }
+    div.footer-p{
+        padding: 0 0 10% 0;
     }
     div.footer-p p{
-        padding: 10%;
+        font-size: 30;
+        padding: 2%;
+        line-height: 2.5;
+    }
+    div.footer-icon{
+        padding: 0 0 10% 0;
     }
     div.footer-icon p{
         padding: 0 3%;
-    }
-    div.footer-icon{
-        padding: 0;
     }
 }
 
