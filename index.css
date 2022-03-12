@@ -239,7 +239,7 @@ div.footer-icon{
     }
     div.div-h1 h1{
         color: black;
-        font-size: 50;
+        font-size: 70;
         font-weight: 900;
         font-family: 'Open sans', sans-serif;
     }
@@ -294,7 +294,7 @@ div.grid-main{
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
 }
 div.grid-main::after{
     display: block;
@@ -406,7 +406,7 @@ div.grid-main::after{
     }
     div.div-h1 h1{
         color: black;
-        font-size: 90;
+        font-size: 120;
         font-weight: 900;
         font-family: 'Open sans', sans-serif;
     }
@@ -461,7 +461,7 @@ div.grid-main{
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
 }
 div.grid-main::after{
     display: block;
